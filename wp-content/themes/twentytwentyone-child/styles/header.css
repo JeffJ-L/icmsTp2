@@ -1,0 +1,8 @@
+.site-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    height: 60vh;
+    padding-left: 0 10vw;
+    padding-right: 0 10vw;
+}

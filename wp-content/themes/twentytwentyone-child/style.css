@@ -5,3 +5,10 @@ Author: Jeff Jean-Louis
 Template: twentytwentyone
 Version: 1.0
 */
+
+@import url('../twentytwentyone-child/styles/header.css');
+@import url('../twentytwentyone-child/styles/general.css');
+
+.wrapper {
+    padding: 0 max(16px, 8vw);
+}
