@@ -1,8 +1,17 @@
-.site-header {
+.accueil-header {
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: none;
     height: 60vh;
-    padding-left: 0 10vw;
-    padding-right: 0 10vw;
+    background-position: center;
+}
+
+.accueil-header p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.4rem;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }

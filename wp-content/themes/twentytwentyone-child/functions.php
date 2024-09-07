@@ -7,6 +7,11 @@ function ttoc_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'ttoc_styles' );
 
+function ttoc_supprime_editeur_page() {
+    remove_post_type_support( 'page', 'editor' );
+}
+add_action( 'init', 'ttoc_supprime_editeur_page', 15 );
+
 
 
 function ttoc_ajoute_auteur() {
